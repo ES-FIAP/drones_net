@@ -98,3 +98,190 @@ header {
   height: 352px;
   background-image: url('../img/banner.fw.png');
 }
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  margin-top: 16px;
+}
+
+.row-title {
+  flex: 1;
+  border-bottom: 2px solid #660000;
+}
+
+.row-title.blue {
+  border-color: #1c8e99
+}
+
+.row-title h2 {
+  color: #660000;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+
+  margin-bottom: 4px;
+}
+
+.row-title.blue h2 {
+  color: #1c8e99
+}
+
+
+.row-image {
+  width: 120px;
+  height: 68px;
+
+  background-image: url('../img/galerias.fw.png');
+}
+
+.row-image.i1 {
+  background-position: -145px -15px;
+}
+
+.row-image.i2 {
+  background-position: -13px -15px;
+  height: 85px;
+}
+
+.row-body ul {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+.row-body ul li {
+  list-style: none;
+}
+
+.product-card {
+  width: 300px;
+  height: 374px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #1b8e99;
+}
+
+.product-card.red {
+  border-color: #660000;
+}
+
+.product-card-title {
+  width: 100%;
+
+  padding: 2px 4px;
+}
+
+.product-card-title h3 {
+  width: 100%;
+
+  background-color: #d3ebed;
+
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+
+  color: #1b8e99;
+
+  text-align: center;
+
+  padding: 4px 0;
+}
+
+.product-card.red .product-card-title h3 {
+  color: #660000;
+  background-color: #eedada;
+}
+
+.product-card-image {
+  width: 85%;
+  flex: 1;
+
+  background-image: url('../img/galerias3.fw.png');
+}
+
+.product-card-image.i1 {
+  background-position-x: -12px;
+}
+
+.product-card-image.i2 {
+  background-position-x: -279px;
+}
+
+.product-card-image.i3 {
+  background-position-x: -520px;
+}
+
+.product-card-description {
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+
+  color: #1b8e99;
+
+  margin: 16px;
+}
+
+.product-card.red .product-card-description {
+  color: #660000;
+}
+
+.product-card-bottom {
+  width: 100%;
+  height: 96px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 16px;
+
+  background-color: #1b8e99;
+}
+
+.product-card.red .product-card-bottom {
+  background-color: #660000;
+}
+
+.product-card-price h3 {
+  font-family: Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.product-card-price p {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.product-card-cart {
+  background-image: url('../img/galerias.fw.png');
+  background-position: -31px -115px;
+  background-color: white;
+  width: 70px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.divider {
+  width: 100%;
+  height: 17px;
+
+  background-color: #444444;
+
+  margin: 16px 0;
+}
