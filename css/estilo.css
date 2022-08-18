@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 980px;
+}
+
+header {
+  height: 45px;
+  width: 100%;
+
+  background-color: #1b8e99;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+  padding-left: 16px;
+}
+
+.main-logo {
+  margin-top: -24px;
+}
+
+.menu {
+  padding: 0 16px;
+}
+
+.menu.red {
+  background-color: #660000;
+}
+
+.menu ul {
+  height: 45px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: min-content;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+.menu ul li a:hover::after {
+  width: 100%;
+}
+
+.menu ul li a.active {
+  padding: 24px 16px;
+}
+
+.menu.blue ul li a.active {
+  background-color: #92C9CE;
+}
+
+.menu.red ul li a.active {
+  background-color: #fff;
+  color: #660000;
+  padding: 24px 24px;
+}
+
+.hero {
+  width: 100%;
+  height: 352px;
+  background-image: url('../img/banner.fw.png');
+}
