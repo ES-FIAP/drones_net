@@ -285,3 +285,69 @@ header {
 
   margin: 16px 0;
 }
+
+.service-card {
+  width: 322px;
+  height: 322px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  border: 1px solid #660000;
+  
+  border-bottom-width: 6px;
+}
+
+.service-card.blue {
+  border-color: #1b8e99;
+}
+
+.service-card-image {
+  width: 100%;
+  height: 146px;
+
+  background-image: url('../img/galerias2.fw.png');
+  background-size: 100%;
+}
+
+.service-card-image.i1 {
+  background-position-y: 0;
+}
+
+.service-card-image.i2 {
+  background-position-y: -146px;
+}
+
+.service-card-image.i3 {
+  background-position-y: -292px;
+}
+
+.service-card-title {
+  margin: 8px;
+}
+
+.service-card-title h3 {
+  font-size: 17px;
+  font-family: Tahoma, sans-serif;
+  text-transform: uppercase;
+
+  color: #660000;
+}
+
+.service-card.blue .service-card-title h3 {
+  color: #1b8e99;
+}
+
+.service-card-description {
+  font-size: 13px;
+  font-family: Tahoma, sans-serif;
+
+  color: #660000;
+
+  margin: 8px;
+}
+
+.service-card.blue .service-card-description {
+  color: #1b8e99;
+}
