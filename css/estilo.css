@@ -351,3 +351,92 @@ header {
 .service-card.blue .service-card-description {
   color: #1b8e99;
 }
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 80px;
+  margin-bottom: 16px;
+
+  position: relative;
+}
+
+.footer-drones {
+  width: 100%;
+  display: flex;
+}
+
+.footer-drone-img {
+  width: 133px;
+  height: 41px;
+
+  background-image: url('../img/galerias.fw.png');
+  background-position: -21px -184px;
+}
+
+.footer-drone-img.i2 {
+  margin-left: 300px;
+}
+
+.footer-drone-img.i3 {
+  margin-left: 110px;
+}
+
+.footer-main {
+  width: 100%;
+  height: 96px;
+
+  background-color: #1b8e99;
+
+  display: flex;
+  align-items: center;
+  gap: 72px;
+
+  padding: 0 16px;
+}
+
+.footer-logo {
+  width: 107px;
+  height: 21px;
+  background-image: url('../img/galerias.fw.png');
+  background-position: -145px -132px;
+}
+
+.footer-description p {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 26px;
+
+  background-color: #660000;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 0 72px;
+}
+
+.footer-bottom p {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 109px;
+  height: 207px;
+
+  background-image: url('../img/galerias.fw.png');
+  background-position: -279px 2px;
+}
